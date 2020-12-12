@@ -207,7 +207,7 @@ export default function HomePage() {
                         {dataTop5 &&
                           dataTop5.map((el, index) => (
                             <tr>
-                              <th scope="row">{index}</th>
+                              <th scope="row">{index + 1}</th>
                               <td>{el.countryRegion}</td>
                               <td>{el.confirmed}</td>
                               <td>{el.deaths}</td>
